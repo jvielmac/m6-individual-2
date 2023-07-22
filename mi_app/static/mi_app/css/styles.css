@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    max-width: 860px;
+    text-align: center;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+#titulo p {
+    font-size: 1.4em;
+    margin-top: 10px;
+}
+
+#titulo {
+    margin-bottom: 25px;
+}
+
+#descripcion {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#llamado-accion a {
+    background-color: #4663ac;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+#llamado-accion p {
+    margin-bottom: 25px;
+}
+
+#img-cuaderno {
+    width: 300px;
+}
+
+@media screen and (min-width: 720px) {
+    #descripcion {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #img-cuaderno {
+        width: 360px;
+    }
+}

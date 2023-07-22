@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'mi_app/css/styles.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>ArteBazar</title>
+</head>
+<body>
+    <div id="main">
+        <div id="titulo">
+            <h1>ArteBazar</h1>
+            <p>La plataforma que permite a los artistas vender su arte en productos.</p>
+        </div>
+
+        <img src="{% static 'mi_app/img/notebook.jpg' %}" alt="cuaderno" id="img-cuaderno">
+
+        <div id="descripcion">
+            <div>
+                <h2>Quiero vender mi arte</h2>
+                <p>
+                    Puedes subir tus imágenes y vender productos como poleras, tazones y mas a precios muy bajos.
+                    Cobramos solo 200 pesos por publicar un anuncio y una comisión de 2% por cada articulo vendido.
+                </p>
+            </div>
+        
+            <div>
+                <h2>Quiero comprar productos</h2>
+                <p>Aquí puedes encontrar productos con un diseño único y gran calidad a precios bajos.</p>
+            </div>
+        </div>    
+
+        <div id="llamado-accion">
+            <p>Ya seas un artista o un comprador. ArteBazar tiene lo que tu necesitas.</p>
+            <a href="#">Regístrate Ya!</a>
+        </div>
+    </div>
+</body>
+</html>
